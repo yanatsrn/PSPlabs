@@ -49,4 +49,8 @@ public class SecurityGuard extends Person{
     public void showSalary() {
         System.out.println("Зарплата охранника: " + getSalary());
     }
+
+    public void run() {
+        System.out.println("Охранник " + getSurname() + getName() + " бежит за вором");
+    }
 }

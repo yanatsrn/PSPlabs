@@ -84,6 +84,8 @@ public class MainMenu {
                 System.out.println(accountent.work());
                 System.out.println(packer.work());
                 System.out.println(securityGuard.work());
+                cashiers.activities();
+                securityGuard.run();
                 securityGuard.showSalary();
                 cashiers.showSalary();
                 System.out.println(admin.getWeekend());

@@ -53,4 +53,11 @@ public class Cashier extends Person{
     public void showSalary() {
         System.out.println("Зарплата кассира: " + getSalary());
     }
+
+    public void activities() {
+        System.out.println("Касса №3. Кассир " + getName() + " "+ getSurname());
+        System.out.println("Наденьте маску!");
+        System.out.println("Вам  пакет нужен?");
+        System.out.println("Булочки с изюмом брали?");
+    }
 }
