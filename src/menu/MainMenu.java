@@ -102,5 +102,8 @@ public class MainMenu {
         }
     }
 
+    public static void lab3(Scanner in) {
+        System.out.println();
+    }
 
 }
